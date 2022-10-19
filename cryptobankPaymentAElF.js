@@ -49,7 +49,7 @@ class CryptoBankAElFPopup {
 
         // this.iFrame.style.display="none"
         // this.iFrame.src = `https://cryptobank-checkout.netlify.app/?amount=${getAmount()}&vendorId=${getVendorId()}&payerEmail=${getEmail()}`
-        this.iFrame.src = `https://cryptobank-checkout.netlify.app/?amount=${getAmount()}&vendorId=${getVendorId()}&payerEmail=${this.settings.email}`
+        this.iFrame.src = `https://cryptobankdevteam.github.io/popup-client/?amount=${getAmount()}&vendorId=${getVendorId()}&payerEmail=${this.settings.email}`
 
         this.iFrame.sandbox = `allow-scripts allow-same-origin allow-modals allow-popups allow-top-navigation`
         //this.iFrame.src = `http://localhost:3002/?amount=${getAmount()}&vendorId=${getVendorId()}&payerEmail=${this.settings.email}`
