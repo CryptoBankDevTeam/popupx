@@ -458,6 +458,12 @@ ul {
     font-size: 1.1em;
 }
 
+.pay-AElF {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
