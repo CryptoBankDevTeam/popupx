@@ -54,3 +54,12 @@ function LaunchExtension() {
 
 }
 
+function PayAElfToken() {
+    var nURL = 'https://cryptobankdevteam.github.io/popup-client/';
+    let queryAmount = document.getElementById('cart-amount').value;
+    let queryEmail = document.getElementById('cart-email').value;
+    let queryVendorID = document.getElementById('cart-vendor-id').value;
+    var fURL = nURL + '?amount=' + queryAmount + '&email=' + queryEmail + '&vendorID=' + queryVendorID;
+
+    window.location.replace(fURL);
+}
